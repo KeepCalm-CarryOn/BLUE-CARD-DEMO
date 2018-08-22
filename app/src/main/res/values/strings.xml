@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">New_nfccard</string>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="please_connect">请连接设备</string>
+    <string name="connect_again">重新连接</string>
+    <string name="connected">已连接</string>
+    <string name="disconnected">连接断开</string>
+    <string name="open_bluetooth">请求打开蓝牙</string>
+    <string name="sure">确定</string>
+    <string name="enter_opcode_data">请输入数据内容</string>
+
+    <array name="error_code">
+        <item>蓝牙主控端接收的校验值错误</item>
+        <item>AT88SC1608卡复位失败</item>
+        <item>读写密钥校验失败</item>
+        <item>用户区读失败</item>
+        <item>用户区写失败</item>
+        <item>设置区读失败</item>
+        <item>设置区写失败</item>
+        <item>蓝牙主控端3DES认证失败</item>
+        <item>设置3DES密钥失败</item>
+    </array>
+</resources>
